@@ -57,6 +57,10 @@ button:hover {
 #main-content header h1 {
   margin-left: 70px;
 }
+#main-content #load-carousel-images {
+  position: absolute;
+  visibility: hidden;
+}
 #main-content #carousel-container {
   height: 70vh;
   display: flex;
