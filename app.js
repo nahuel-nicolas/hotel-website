@@ -56,7 +56,7 @@ function resetCarouselAutoPlay() {
 		if (currentCarouselPosition > 2) currentCarouselPosition = 0;
 		updateCarouselPosition();
 		}, 
-		5000
+		7000
 	);
 }
 
