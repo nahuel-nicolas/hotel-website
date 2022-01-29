@@ -83,17 +83,17 @@ button:hover {
 #main-content #carousel-container #carousel {
   width: 100%;
 }
-#main-content #carousel-container #carousel .background[isvisible=true] {
-  display: flex;
-  justify-content: center;
-  transition: 2s;
-}
 #main-content #carousel-container #carousel .background[isvisible=false] {
   display: flex;
   max-width: 100%;
   justify-content: center;
   position: absolute;
-  visibility: hidden;
+  z-index: -1;
+}
+#main-content #carousel-container #carousel .background[isvisible=true] {
+  display: flex;
+  justify-content: center;
+  transition: 2s;
 }
 #main-content #carousel-container #carousel .background[isvisible=true] .content {
   color: #e2e1e1;
